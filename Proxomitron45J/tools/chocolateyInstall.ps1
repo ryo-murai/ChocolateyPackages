@@ -1,4 +1,4 @@
-﻿$packageName = 'Proxomitron'
+﻿$packageName = 'Proxomitron45J'
 $url = 'http://www.proxomitron.info/files/download/ProxN45j.zip'
 $url64 = $url
 $validExitCodes = @(0)
