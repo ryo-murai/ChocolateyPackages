@@ -1,14 +1,8 @@
-﻿#function Get-CurrentDirectory
-#{
-#  $thisName = $MyInvocation.MyCommand.Name
-#  [IO.Path]::GetDirectoryName((Get-Content function:$thisName).File)
-#}
+﻿# https://github.com/Iristyle/ChocolateyPackages/blob/master/SourceCodePro/tools/chocolateyInstall.ps1
+# http://stackoverflow.com/questions/16023238/installing-system-font-with-powershell
+#
 
 try {
-
-#  $fontHelpersPath = (Join-Path (Get-CurrentDirectory) 'FontHelpers.ps1')
-#   . $fontHelpersPath
-
   $package = 'Migu1M'
   $fontUrl = 'http://sourceforge.jp/projects/mix-mplus-ipa/downloads/59021/migmix-1m-20130617.zip/'
   $destination = Join-Path $Env:Temp $package
