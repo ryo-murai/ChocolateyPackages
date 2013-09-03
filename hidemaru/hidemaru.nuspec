@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>hidemaru</id>
+    <title>hidemaru</title>
+    <version>4.79</version>
+    <authors>有限会社サイトー企画</authors>
+    <owners>ryo-murai</owners>
+    <summary>hidemaru</summary>
+    <description>秀丸エディタは、Windows95/98/Me/2000/XP/Vista/7/8 上で動作するテキストエディタです。</description>
+    <projectUrl>http://hide.maruo.co.jp/software/hidemaru.html</projectUrl>
+    <tags>hidemaru admin</tags>
+    <copyright>Copyright (C) 1992 - 2012 (有)サイトー企画</copyright>
+    <licenseUrl>http://hide.maruo.co.jp/swreg/index.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://hide.maruo.co.jp/software/image/hm_icon.gif</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
