@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IpMsg</id>
+    <title>IP Messanger</title>
+    <version>3.42</version>
+    <authors>H.Shirouzu</authors>
+    <owners>ryo-murai</owners>
+    <summary>IP Messanger</summary>
+    <description>
+    TCP/IPを使用した、LAN用メッセンジャーです。
+    動的なメンバ認識ができます。
+    シンプル＆軽快動作、さらにコンパクトサイズ。
+    </description>
+    <projectUrl>http://ipmsg.org/</projectUrl>
+    <tags>ipmsg messanger admin</tags>
+    <copyright>(C) 1996-2012 H.Shirouzu</copyright>
+    <licenseUrl>http://ipmsg.org/ipmsghlp.htm#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://ipmsg.org/ipmsg.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
