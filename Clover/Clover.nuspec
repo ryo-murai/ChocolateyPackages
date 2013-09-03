@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Clover</id>
+    <title>Clover</title>
+    <version>3.0.386</version>
+    <authors>EJIE TECHNOLOGY</authors>
+    <owners>ryo-murai</owners>
+    <summary>Clover</summary>
+    <description>Clover is an extension of the Windows Explorer, to add multi-tab functionality similar to Google Chrome browser. After install Clover, you will be able to open multiple folders within the same window, and you can also add folder bookmarks.</description>
+    <projectUrl>http://ejie.me/</projectUrl>
+    <tags>clover explorer chrome admin</tags>
+    <copyright>Copyright (c) 2013 EJIE Technology. All Rights Reserved.</copyright>
+    <licenseUrl>http://ejie.me/#tabber12_div_2</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/https://github.com/ryo-murai/ChocolateyPackages/master/Clover/Clover.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
