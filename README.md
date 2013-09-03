@@ -1,7 +1,7 @@
 ChocolateyPackages 
 ================== 
 
-This repository contains Chocolatey Install Packages for personal use.
+This repository contains Chocolatey Install Packages for personal use -- namely オレオレリポジトリ
 
 ## install packages
 ```
