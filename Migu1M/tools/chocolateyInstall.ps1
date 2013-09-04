@@ -4,7 +4,7 @@
 
 try {
   $packageName = 'Migu1M'
-  $fontUrl = 'http://sourceforge.jp/frs/redir.php?m=iij&f=%2Fmix-mplus-ipa%2F59021%2Fmigmix-1m-20130617.zip'
+  $fontUrl = 'http://sourceforge.jp/frs/redir.php?m=iij&f=%2Fmix-mplus-ipa%2F59022%2Fmigu-1m-20130617.zip'
   $destination = Join-Path $Env:Temp $packageName
 
   $tempDir = Join-Path $env:TEMP "chocolatey" | Join-Path -ChildPath "$packageName"
