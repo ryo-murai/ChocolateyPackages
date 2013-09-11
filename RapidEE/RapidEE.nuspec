@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>RapidEE</id>
+    <title>RapidEE</title>
+    <version>8.0.904</version>
+    <authors>Oleg Danilov</authors>
+    <owners>ryo-murai</owners>
+    <summary>RapidEE</summary>
+    <description>RapidEE</description>
+    <projectUrl>http://www.rapidee.com/</projectUrl>
+    <tags>RapidEE rapid environment editor admin</tags>
+    <copyright>Copyright (c) 2010-2013 Oleg Danilov. All rights reserved.</copyright>
+    <licenseUrl>http://www.rapidee.com/en/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.rapidee.com/images/logos/logo.png.pagespeed.ce.4m_N4Glvhu.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
