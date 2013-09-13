@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ScalaIDE</id>
+    <title>ScalaIDE</title>
+    <version>3.0.1</version>
+    <authors>http://scala-ide.org/team.html</authors>
+    <owners>ryo-murai</owners>
+    <summary>ScalaIDE</summary>
+    <description>
+Scala IDE provides advanced editing and debugging support for the development of pure Scala and mixed Scala-Java applications.
+Now with a shiny Scala debugger, semantic highlight, more reliable JUnit test finder, an ecosystem of related plugins, and much more.
+    </description>
+    <projectUrl>http://scala-ide.org/</projectUrl>
+    <tags>ScalaIDE scala ide eclipse admin</tags>
+    <copyright>Copyright (c) 2002-2010 EPFL, Lausanne, unless otherwise specified. All rights reserved.</copyright>
+    <licenseUrl>http://scala-ide.org/docs/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://scala-ide.org/resources/images/logo.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
