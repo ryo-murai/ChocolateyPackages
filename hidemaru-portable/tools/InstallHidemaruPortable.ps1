@@ -3,16 +3,16 @@
 param(
   [parameter(Position=0)]
   [string]$destination,
-  $version
+  $version,
+  [string]$hmtakeoutVer = "206"
 )
 
 try {
 
-  Write-Host "InstallHidemaruPortable.ps1: invoked argument with destination: $destination, version: $version"
+  Write-Host "InstallHidemaruPortable.ps1: invoked argument with destination: $destination, version: $version, porttoolVer: $hmtakeoutVer"
 
   $packageName = 'hidemaru'
-  $installDir = if($destination) { $destination } else {Join-Path $env:USERPROFILE "tools\hidemaru"}
-  $hmtakeoutVer = "206"
+  $installDir = if($destination) { $destination } else { (Get-Location).Path }
 
   if (![System.IO.Directory]::Exists($installDir)) { [System.IO.Directory]::CreateDirectory($installDir) }
 
@@ -38,10 +38,10 @@ try {
   $takeoutInstPath = Join-Path $tempDir "$($packageName)takeout-install.exe"
 
   irm $url -outfile $installerPath
-  Expand-Archive -Path $installerPath -OutputPath $installDir -ShowProgress
+  Expand-Archive -Path $installerPath -OutputPath $installDir -ShowProgress -Force
 
   irm "http://hide.maruo.co.jp/software/bin3/hmtakeout$($hmtakeoutVer)_signed.exe" -outfile $takeoutInstPath
-  Expand-Archive -Path $takeoutInstPath -OutputPath $installDir -ShowProgress
+  Expand-Archive -Path $takeoutInstPath -OutputPath $installDir -ShowProgress -Force
 
 } catch {
   Write-Host "InstallHidemaruPortable.ps1" "$($_.Exception.Message)" -ForegroundColor Red
