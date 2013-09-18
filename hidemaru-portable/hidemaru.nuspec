@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>hidemaru</id>
+    <id>hidemaru-portable</id>
     <title>hidemaru</title>
-    <version>4.79</version>
+    <version>8.32</version>
     <authors>有限会社サイトー企画</authors>
     <owners>ryo-murai</owners>
     <summary>hidemaru</summary>
