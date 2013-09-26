@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Dexpot-portable</id>
+    <title>Dexpot-portable</title>
+    <version>1.6.10</version>
+    <authors>Sebastian Brands and Patrick Dubbert</authors>
+    <owners>ryo-murai</owners>
+    <summary>Dexpot-portable</summary>
+    <description>Dexpot-portable</description>
+    <projectUrl>http://www.dexpot.de/</projectUrl>
+    <tags>Dexpot portable virtual desktop admin</tags>
+    <copyright>(c) 2004-2013 Dexpot GbR</copyright>
+    <licenseUrl>http://www.dexpot.de/download/eula_en.pdf</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>http://www.dexpot.de/gfx/header_dexpot_en.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
