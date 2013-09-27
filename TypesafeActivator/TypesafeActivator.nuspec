@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TypesafeActivator</id>
+    <title>TypesafeActivator</title>
+    <version>1.0.0</version>
+    <authors>typesafe</authors>
+    <owners>ryo-murai</owners>
+    <summary>TypesafeActivator</summary>
+    <description>Typesafe Activator helps you get started with the Typesafe Platform, Play Framework, Akka and Scala</description>
+    <projectUrl>http://typesafe.com/activator</projectUrl>
+    <tags>TypesafeActivator typesafe activator scala playframework akka admin</tags>
+    <copyright>Copyright 2013 Typesafe, Inc.</copyright>
+    <licenseUrl>http://typesafe.com/legal/licenses</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/https://github.com/ryo-murai/ChocolateyPackages/master/TypesafeActivator/TypesafeActivator.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
