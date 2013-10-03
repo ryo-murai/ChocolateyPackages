@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WinShot</id>
+    <title>WinShot</title>
+    <version>1.53</version>
+    <authors>WoodyBells</authors>
+    <owners>ryo-murai</owners>
+    <summary>WinShot</summary>
+    <description>WinShot</description>
+    <projectUrl>http://www.woodybells.com/winshot.html</projectUrl>
+    <tags>WinShot screen shot images admin</tags>
+    <copyright>(c)WoodyBells</copyright>
+    <licenseUrl>http://www.woodybells.com/about.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
