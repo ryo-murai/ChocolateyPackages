@@ -8,7 +8,7 @@
   #Write-Debug "current location pwd: $(pwd), mylocation: $($MyInvocation.MyCommand.Path)"
 
   # invoke installation script
-  & "$command" -destination `""$destination"`" -version "$version"
+  & "$command" -target All -destination `""$destination"`" -version "$version"
 
   Write-ChocolateySuccess $packageName
 
