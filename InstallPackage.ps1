@@ -1,6 +1,7 @@
 param(
   [string] $packageName,
-  [switch] $clean
+  [switch] $clean,
+  [switch] $force
 )
 
 
@@ -16,10 +17,14 @@ if($clean) {
   cuninst $packageName
 }
 
+if($force) {
+  $cinstOpts = "-Force"
+}
+
 Push-Location $targetPkgPath
 
 cpack
 
-cinst $packageName -source %cd%
+cinst $packageName "$cinstOpts" -source %cd%
 
 Pop-Location
