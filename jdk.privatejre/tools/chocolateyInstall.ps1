@@ -1,11 +1,11 @@
 ﻿try {
   $packageName = 'jdk.privatejre'
-  $verLabel = '1.7.0_25'
+  $verLabel = '1.8.0_05'
   $installDir = "$env:homedrive$env:homepath\dev\java\jdk"
 
   # target url
-  $url32 =   'http://download.oracle.com/otn-pub/java/jdk/7u25-b17/jdk-7u25-windows-i586.exe'
-  $url64 = 'http://download.oracle.com/otn-pub/java/jdk/7u25-b17/jdk-7u25-windows-x64.exe'
+  $url32 =   'http://download.oracle.com/otn-pub/java/jdk/8u5-b13/jdk-8u5-windows-i586.exe'
+  $url64 = 'http://download.oracle.com/otn-pub/java/jdk/8u5-b13/jdk-8u5-windows-x64.exe'
 
   $IsSytem32Bit = (($Env:PROCESSOR_ARCHITECTURE -eq 'x86') -and `
     ($Env:PROCESSOR_ARCHITEW6432 -eq $null))
@@ -19,7 +19,7 @@
   $file = Join-Path $tempDir "$($packageName)-install.exe"
 
   # cookie
-  $cookie = "gpw_e24=http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html"
+  $cookie = "gpw_e24=http://www.oracle.com/; oraclelicense=accept-securebackup-cookie"
 
   $client = New-Object Net.WebClient
   $client.Headers.Add('Cookie', $cookie)
@@ -27,9 +27,9 @@
 
   Write-Debug "downloaded the installer from $url"
 
-  # http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jre-installer-options.html
-  # http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html#Check
-  $instOpt = "/s ADDLOCAL=`"ToolsFeature,SourceFeature`" /INSTALLDIR=`"$installDir\jdk$verLabel`""
+  # http://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_installer_options.html#CJAJGEHA
+  # http://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#CHDHHBDD
+  $instOpt = "/s ADDLOCAL=`"ToolsFeature,SourceFeature`" INSTALLDIR=`"$installDir\jdk$verLabel`""
 
   Install-ChocolateyInstallPackage $packageName 'exe' $instOpt $file
   
