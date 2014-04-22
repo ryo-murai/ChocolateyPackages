@@ -24,7 +24,7 @@ function Solve-HidemaruVersion
   # hidemaru.ver contains a string like "2013/09/03 8.32"
   $version = if(! $version) {
    # default is the latest
-   (-split (irm "http://www2.maruo.co.jp/_software/hidemaru.ver"))[1]
+   (-split (irm "http://hide.maruo.co.jp/software/hidemaru.ver"))[1]
   }
   $version
 }
@@ -41,7 +41,7 @@ function Download-Hidemaru
   param([parameter(Position=0)][string]$hmVersion)
 
   $shortver = $hmVersion.replace('.', '')
-  $url32 = "http://hide.maruo.co.jp/software/bin2/hm$($shortver)_signed.exe"
+  $url32 = "http://hide.maruo.co.jp/software/bin/hm$($shortver)_signed.exe"
   $url64 = "http://hide.maruo.co.jp/software/bin/hm$($shortver)_x64_signed.exe"
   
   $IsSytem32Bit = (($Env:PROCESSOR_ARCHITECTURE -eq 'x86') -and `
