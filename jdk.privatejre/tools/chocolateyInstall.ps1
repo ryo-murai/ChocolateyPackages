@@ -1,11 +1,14 @@
-﻿try {
+﻿# check url for the latest installer
+# http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+try {
   $packageName = 'jdk.privatejre'
   $verLabel = '1.8.0_05'
   $installDir = "$env:homedrive$env:homepath\dev\java\jdk"
 
   # target url
-  $url32 =   'http://download.oracle.com/otn-pub/java/jdk/8u5-b13/jdk-8u5-windows-i586.exe'
-  $url64 = 'http://download.oracle.com/otn-pub/java/jdk/8u5-b13/jdk-8u5-windows-x64.exe'
+  $url32 = 'http://download.oracle.com/otn-pub/java/jdk/8u25-b18/jdk-8u25-windows-i586.exe'
+  $url64 = 'http://download.oracle.com/otn-pub/java/jdk/8u25-b18/jdk-8u25-windows-x64.exe'
 
   $IsSytem32Bit = (($Env:PROCESSOR_ARCHITECTURE -eq 'x86') -and `
     ($Env:PROCESSOR_ARCHITEW6432 -eq $null))

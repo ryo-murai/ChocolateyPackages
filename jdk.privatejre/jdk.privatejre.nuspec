@@ -3,7 +3,7 @@
   <metadata>
     <id>jdk.privatejre</id>
     <title>jdk.privatejre</title>
-    <version>1.8.0.05</version>
+    <version>1.8.0.25</version>
     <authors>Oracle</authors>
     <owners>ryo-murai</owners>
     <summary>jdk7 installs private jre</summary>
