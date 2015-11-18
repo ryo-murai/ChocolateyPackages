@@ -3,12 +3,12 @@
 
 try {
   $packageName = 'jdk.privatejre'
-  $verLabel = '1.8.0_05'
+  $verLabel = '1.8.0_66'
   $installDir = "$env:homedrive$env:homepath\dev\java\jdk"
 
   # target url
-  $url32 = 'http://download.oracle.com/otn-pub/java/jdk/8u25-b18/jdk-8u25-windows-i586.exe'
-  $url64 = 'http://download.oracle.com/otn-pub/java/jdk/8u25-b18/jdk-8u25-windows-x64.exe'
+  $url32 = 'http://download.oracle.com/otn-pub/java/jdk/8u66-b18/jdk-8u66-windows-i586.exe'
+  $url64 = 'http://download.oracle.com/otn-pub/java/jdk/8u66-b18/jdk-8u66-windows-x64.exe'
 
   $IsSytem32Bit = (($Env:PROCESSOR_ARCHITECTURE -eq 'x86') -and `
     ($Env:PROCESSOR_ARCHITEW6432 -eq $null))

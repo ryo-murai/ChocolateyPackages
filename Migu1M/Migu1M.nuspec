@@ -3,14 +3,14 @@
   <metadata>
     <id>Migu1M</id>
     <title>Migu 1M</title>
-    <version>1.0.20130617</version>
+    <version>1.0.20150712</version>
     <authors>itouhiro</authors>
     <owners>ryo-murai</owners>
     <summary>M+とIPAの合成フォント</summary>
     <description>
     Miguフォントは、以下の特徴があります。
      - M+フォントに改変を加えて、文字を判別しやすくした
-     - IPAゴシックを合成して、漢字をJIS第1水準～第4水準まで持つ
+     - IPAゴシックを合成して、漢字をJIS第1水準〜第4水準まで持つ
     </description>
     <projectUrl>http://mix-mplus-ipa.sourceforge.jp/migu/</projectUrl>
     <tags>migu migu1m monospace japanese font admin</tags>

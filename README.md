@@ -8,7 +8,7 @@ This repository contains Chocolatey Install Packages for personal use -- namely 
 git clone https://github.com/ryo-murai/ChocolateyPackages
 cd <package>
 cpack
-cinst <package> -source %cd%
+cinst <package> -source "$PWD"
 ```
 
 ## to create a new package
