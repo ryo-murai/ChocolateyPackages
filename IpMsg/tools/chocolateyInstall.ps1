@@ -1,8 +1,8 @@
 ﻿try {
   $packageName = 'IpMsg'
   $installerType = 'exe'
-  $url = 'http://ipmsg.org/archive/ipmsg342r2_installer.exe'
-  $url64 = 'http://ipmsg.org/archive/ipmsg342r2_installer64.exe'
+  $url = 'http://ipmsg.org/archive/ipmsg363_installer.exe'
+  $url64 = 'http://ipmsg.org/archive/ipmsg363_installer64.exe'
   $silentArgs = '' # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any of these to get the silent installer #msi is alw
   $validExitCodes = @(0)
 
