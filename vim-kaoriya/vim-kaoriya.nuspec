@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vim-kaoriya</id>
+    <title>vim-kaoriya</title>
+    <version>7.4</version>
+    <authors>http://scala-ide.org/team.html</authors>
+    <owners>ryo-murai</owners>
+    <summary>kaoriya vim</summary>
+    <description>
+     Vim is an almost compatible version of the UNIX editor Vi.  Many new features
+     have been added: multi-level undo, syntax highlighting, command line history,
+     on-line help, spell checking, filename completion, block operations, etc.
+     There is also a Graphical User Interface (GUI) available.  See
+     "runtime/doc/vi_diff.txt" for differences with Vi.
+    </description>
+    <projectUrl>http://www.kaoriya.net/software/vim/</projectUrl>
+    <tags>vim editor</tags>
+    <copyright>Copyright (c) 2007 Laurent Gregoire</copyright>
+    <licenseUrl>http://www.vim.org/about.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.kaoriya.net/software/vim/icon_prove/icon01-128.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
