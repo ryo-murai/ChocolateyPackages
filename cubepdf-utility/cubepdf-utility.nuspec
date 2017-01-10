@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>cubepdf-utility</id>
+    <title>CubePDF Utility</title>
+    <version>0.4</version>
+    <authors>CubeSoft</authors>
+    <owners>ryo-murai</owners>
+    <summary>CubePDF Utility</summary>
+    <description>CubePDF Utility は、PDF ファイルにちょっとした編集を行いたい時に最適なソフトウェアです。 
+    ページ順序の変更、結合や分割といったページ編集をはじめ、パスワードの設定など、PDF ファイルの様々な操作を
+    戸惑いなく直感的に行えるようにデザインされています</description>
+    <projectUrl>http://www.cube-soft.jp/cubepdfutility/</projectUrl>
+    <tags>pdf</tags>
+    <copyright>Copyright (c) 2013 CubeSoft, Inc. All rights reserved.</copyright>
+    <licenseUrl>http://www.cube-soft.jp/cubepdfutility/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
